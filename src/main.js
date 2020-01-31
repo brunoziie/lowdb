@@ -9,7 +9,8 @@ module.exports = function(adapter) {
   }
 
   // Create a fresh copy of lodash
-  const _ = lodash.runInContext()
+  // const _ = lodash.runInContext()
+  const _ = lodash;
   const db = _.chain({})
 
   // Add write function to lodash
