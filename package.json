@@ -1,5 +1,5 @@
 {
-  "name": "lowdb",
+  "name": "lowdb-global-lodash",
   "version": "1.0.0",
   "description": "Small JSON database for Node, Electron and the browser. Powered by Lodash.",
   "keywords": [
@@ -15,7 +15,7 @@
     "embed",
     "embeddable"
   ],
-  "main": "./src/main.js",
+  "main": "./lib/main.js",
   "scripts": {
     "test": "jest && npm run lint",
     "lint": "eslint . --ignore-path .gitignore",
