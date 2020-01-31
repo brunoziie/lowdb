@@ -15,7 +15,7 @@
     "embed",
     "embeddable"
   ],
-  "main": "./lib/main.js",
+  "main": "./src/main.js",
   "scripts": {
     "test": "jest && npm run lint",
     "lint": "eslint . --ignore-path .gitignore",
